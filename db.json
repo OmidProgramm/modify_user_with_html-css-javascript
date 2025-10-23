@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "firstName": "Harry",
+      "lastName": "Mo",
+      "age": 42,
+      "id": 1
+    },
+    {
+      "firstName": "Paul",
+      "lastName": "Book",
+      "age": 76,
+      "id": 2
+    },
+    {
+      "firstName": "Leo",
+      "lastName": "Messi",
+      "age": 77,
+      "id": 3
+    },
+    {
+      "firstName": "Cris",
+      "lastName": "Ronaldo",
+      "age": 57,
+      "id": 4
+    }
+  ]
+}
