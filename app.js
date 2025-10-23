@@ -54,4 +54,19 @@ async function renderUsers() {
         `;
   });
 }
+async function editUserById() {
+  const res = await fetch(`http://localhost:3000/users/3`,{
+    method : 'PUT',
+    body : JSON.stringify({
+      firstName : 'Pedri',
+      lastName : 'Haland',
+      age : 26
+    }),
+    headers : {
+      'Content-Type' : 'application/json'
+    }
 
+  })
+  const data = await res.json()
+}
+editUserById()
